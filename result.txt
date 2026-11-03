@@ -1,0 +1,53 @@
+daothianhthu@AO-2 HW12 % gcc -Wall -Wextra main.c data.c quicksort.c bonus.c -o quicksort
+./quicksort
+Data Size : 1000
+
+Quick Sort (First)    : 10630 comparisons
+Quick Sort (Random)   : 10299 comparisons
+Quick Sort (Median-3) : 10550 comparisons
+Sorting result: Correct
+
+Data Size : 2000
+
+Quick Sort (First)    : 28104 comparisons
+Quick Sort (Random)   : 24536 comparisons
+Quick Sort (Median-3) : 23775 comparisons
+Sorting result: Correct
+
+Data Size : 4000
+
+Quick Sort (First)    : 54272 comparisons
+Quick Sort (Random)   : 59233 comparisons
+Quick Sort (Median-3) : 52783 comparisons
+Sorting result: Correct
+
+Data Size : 8000
+
+Quick Sort (First)    : 118322 comparisons
+Quick Sort (Random)   : 122748 comparisons
+Quick Sort (Median-3) : 111233 comparisons
+Sorting result: Correct
+
+Data Size : 16000
+
+Quick Sort (First)    : 248796 comparisons
+Quick Sort (Random)   : 259563 comparisons
+Quick Sort (Median-3) : 253174 comparisons
+Sorting result: Correct
+
+Data Size : 20000
+
+Quick Sort (First)    : 328492 comparisons
+Quick Sort (Random)   : 344330 comparisons
+Quick Sort (Median-3) : 322800 comparisons
+Sorting result: Correct
+
+Bonus sorting check: Correct
+Comparison counts: Equal
+Data Size : 10000
+Pivot     : Median-of-Three
+Number of runs: 200
+
+Recursive Quick Sort : 0.8550 ms
+Iterative Quick Sort : 0.9221 ms
+daothianhthu@AO-2 HW12 % 
